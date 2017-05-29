@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>贪吃蛇</title>
+	<link rel="stylesheet" href="/css/index.css">
+</head>
+<script src="js/jquery-1.12.0.js"></script>
+<script src="js/index.js"></script>
+<body>
+	<div id="game">
+		<div class="left">
+			<input class="row" placeholder="请输入5-40的数字后按ENTER键">
+			<ul class="nandu">
+				<li class="chose easy" data-role="15"></li>
+				<li class="chose medium" data-role="20"></li>
+				<li class="chose hard" data-role="30"></li>
+			</ul>
+			<ul>
+				<li class="caozuo-t">Active</li>
+				<li class="caozuo" data-ctrl="start">Start</li>
+				<li class="caozuo" data-ctrl="pause">Pause</li>
+				<li class="caozuo" data-ctrl="restart">Restart</li>
+			</ul>
+			<div class="grade-box">
+				<h1>Grade</h1>
+				<h2>0</h2>
+			</div>
+		</div>
+		<div id="sence"></div>
+	</div>
+	<!-- <div id="zhezhao"></div> -->
+	<div id="game-before">
+		 <li class="xian"></li>
+		<ul class="juesexuanze">
+		    <li class="name-box">
+			   <ol class="fen" id="pink"></ol>
+			   <ol class="huang" id="yellow"></ol>
+			   <ol class="lan" id="blue"></ol>
+			   <ol class="lv" id="green"></ol>
+		    </li>
+		    <li class="start"></li>
+		    <li class="mengshe"></li>
+	   </ul>
+	</div>
+	<div id="gameover">
+		<ul class="stars">
+			<li class="star star1"></li>
+			<li class="star star2"></li>
+			<li class="star star3"></li>
+		</ul>
+		<span>
+			<strong>0</strong>
+			<strong>3456</strong>
+		</span>
+		<div class="mengshe"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+body{
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+}
+	#game-before{
+		width: 800px;
+		height: 600px;
+		background-image: url(img/before.jpg);
+		background-size: 100%;
+		margin: 0 auto;
+		margin-top: 30px;
+		overflow: hidden;
+		position: relative;
+		/*display: none;*/
+	}
+	.start{
+		width: 155px;
+		height: 50px;
+		background: pink;
+		position: absolute;
+		top: 215px;
+		left: 180px;
+		opacity: 0;
+	}
+	#game{
+		width: 900px;
+		display: none;
+		margin: 0 auto;
+	}
+	.left{
+		width: 190px;
+		height: 540px;
+		padding: 30px 30px;
+		background: #86CBF5;
+
+		float: left;
+		display: inline-block;
+		margin: 0 10px;
+		cursor: pointer;
+	}
+	.nandu{
+		margin: 0;
+	}
+	.left .chose{
+		width: 79%;
+		height: 50px;
+		/*padding: 10px 20px;*/
+		text-align: center;
+		line-height: 20px;
+		font-size: 18px;
+		color: #fff;
+		margin: 0 auto;
+		/*background: #E3950D;*/
+		margin-bottom: 15px;
+	}
+	.left .easy{
+		background-image: url(img/easy.png);
+	}
+	.left .medium{
+		background-image: url(img/medium.png);
+	}
+	.left .hard{
+		background-image: url(img/hard.png);
+	}
+	#sence{
+		width: 600px;
+		height: 600px;
+		display: inline-block;
+		margin: auto;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.block{
+		background: #03BC03;
+		width: 29px;
+		height: 29px;
+		margin: 0 1px 1px 0;
+		float: left;
+	}
+	.shiwu{
+		background-image: url(img/shiwu.png);
+		background-size: 100%;
+	}
+	.shiwu1{
+		background-image: url(img/shiwu1.png);
+	}
+	.she{
+		background-image: url(img/green.png);
+		background-size: 100%;
+	}
+	input{
+		outline: none;
+		border: none;
+	}
+	.row{
+		width: 100%;
+		height: 30px;
+		margin-bottom: 20px;
+		background: #86CBF5;
+		border-bottom: 1px solid #fff;
+		color: #000;
+	}
+	.caozuo-t{
+		width: 116%;
+		height: 30px;
+		line-height: 30px;
+		padding-left: 30px;
+		margin: 0 -30px 0 -30px;
+		background: #B9DEF2;
+	}
+	.caozuo{
+		width: 100%;
+		/*margin: 10px -30px;*/
+		padding-left: 10px;
+		height: 30px;
+		line-height: 30px;
+		color: #fff;
+		margin-top: 10px;
+	}
+	.grade-box{
+		width: 80%;
+		height: 120px;
+		margin: 0 auto;
+		background: #B9DEF2;
+		border-radius: 20%;
+		padding: 10px;
+	}
+	.grade-box h1{
+		font-size: 20px;
+		text-align: center;
+		color: #CE8300;
+		font-weight: normal;
+		margin: 0;
+	}
+	.grade-box h2{
+		text-align: center;
+	}
+	/**/
+	#gameover{
+		width: 400px;
+		height: 400px;
+		background-image: url(img/gameover.png);
+		background-size: 100%;
+		margin: auto;
+		position: absolute;
+		top: 120px;
+		left: 0;
+		right: 0;
+		display: none;
+	}
+	#gameover .stars{
+		line-height:90px;
+		text-align: center;
+		font-size: 24px;
+		width: 280px;
+		height: 90px;
+		margin: auto;
+		position: relative;;
+		top: 95px;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		/*background: pink;*/
+	}
+	#gameover .stars .star{
+		display: block;
+		position: absolute;
+		margin: auto;
+		display: none;
+	}
+	.star1{
+		width: 70px;
+		height: 70px;
+		background-image: url(img/star1.png);
+		left: 0;
+		bottom: 0;
+	}
+	.star2{
+		width: 90px;
+		height: 83px;
+		background-image: url(img/star2.png);
+		left: 0;
+		right: 0;
+	}
+	.star3{
+		width: 70px;
+		height: 70px;
+		background-image: url(img/star3.png);
+		right: 0;
+		bottom: 0;
+	}
+	#gameover span{
+		display: block;
+		font-weight: normal;
+		font-size: 25px;
+		margin-top: 125px;
+		margin-left: 230px;
+	}
+	#gameover span strong{
+		display: block;
+		margin-top: 7px;
+		color: #fff;
+		font-size: 25px;
+		font-weight: bold;
+		-webkit-text-stroke: 1px #796441;
+	}
+	.mengshe{
+		background-size: 100%;
+		background-image: url(img/lv蛇.png);
+	}
+	#game-before .mengshe{
+		width: 75px;
+		height: 40px;
+		position: absolute;
+		top: 220px;
+		left: 70px;
+	}
+	#gameover .mengshe{
+		width: 75px;
+		height: 40px;
+		position: absolute;
+		left: 40px;
+		top: 305px;
+	}
+	#gameover .mengshe.fen,#game-before .mengshe.fen{
+		background-image: url(img/粉蛇.png);
+	}
+	#gameover .mengshe.huang,#game-before .mengshe.huang{
+		background-image: url(img/黄蛇.png);
+	}
+	#gameover .mengshe.lan,#game-before .mengshe.lan{
+		background-image: url(img/蓝蛇.png);
+	}
+	#gameover .mengshe.lv,#game-before .mengshe.lv{
+		background-image: url(img/lv蛇.png);
+	}
+	.juesexuanze{
+		width: 500px;
+		height: 307px;
+		background-image: url(img/juesexuanze.png);
+		background-size: 100%;
+		margin: 0 auto;
+		margin-top: 30px;
+		position: relative;
+		overflow: hidden;
+	}
+	.name-box{
+		width: 315px;
+		height: 65px;
+		padding: 5px 15px;
+		margin: 0 auto;
+		margin-top: 110px;
+		background: pink;
+		opacity: 0;
+	}
+	.name-box ol{
+		width: 56px;
+		height: 65px;
+		margin-right: 29px;
+		padding: 0;
+		float: left;
+	}
+	.name-box ol:last-child{
+		margin: 0;
+	}
+	.xian{
+		width: 300px;
+		height: 114px;
+		background-image: url(img/线.png);
+		background-size: 100%;
+		position: absolute;
+		top: 150px;
+		left: 250px;
+		/*margin-top: -80px;*/
+	}
