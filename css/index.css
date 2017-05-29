@@ -8,7 +8,7 @@ ul,li{
 	#game-before{
 		width: 800px;
 		height: 600px;
-		background-image: url(img/before.jpg);
+		background-image: url(../img/before.jpg);
 		background-size: 100%;
 		margin: 0 auto;
 		margin-top: 30px;
@@ -57,13 +57,13 @@ ul,li{
 		margin-bottom: 15px;
 	}
 	.left .easy{
-		background-image: url(img/easy.png);
+		background-image: url(../img/easy.png);
 	}
 	.left .medium{
-		background-image: url(img/medium.png);
+		background-image: url(../img/medium.png);
 	}
 	.left .hard{
-		background-image: url(img/hard.png);
+		background-image: url(../img/hard.png);
 	}
 	#sence{
 		width: 600px;
@@ -83,14 +83,14 @@ ul,li{
 		float: left;
 	}
 	.shiwu{
-		background-image: url(img/shiwu.png);
+		background-image: url(../img/shiwu.png);
 		background-size: 100%;
 	}
 	.shiwu1{
-		background-image: url(img/shiwu1.png);
+		background-image: url(../img/shiwu1.png);
 	}
 	.she{
-		background-image: url(img/green.png);
+		background-image: url(../img/green.png);
 		background-size: 100%;
 	}
 	input{
@@ -144,7 +144,7 @@ ul,li{
 	#gameover{
 		width: 400px;
 		height: 400px;
-		background-image: url(img/gameover.png);
+		background-image: url(../img/gameover.png);
 		background-size: 100%;
 		margin: auto;
 		position: absolute;
@@ -176,21 +176,21 @@ ul,li{
 	.star1{
 		width: 70px;
 		height: 70px;
-		background-image: url(img/star1.png);
+		background-image: url(../img/star1.png);
 		left: 0;
 		bottom: 0;
 	}
 	.star2{
 		width: 90px;
 		height: 83px;
-		background-image: url(img/star2.png);
+		background-image: url(../img/star2.png);
 		left: 0;
 		right: 0;
 	}
 	.star3{
 		width: 70px;
 		height: 70px;
-		background-image: url(img/star3.png);
+		background-image: url(../img/star3.png);
 		right: 0;
 		bottom: 0;
 	}
@@ -211,7 +211,7 @@ ul,li{
 	}
 	.mengshe{
 		background-size: 100%;
-		background-image: url(img/lv蛇.png);
+		background-image: url(../img/lv蛇.png);
 	}
 	#game-before .mengshe{
 		width: 75px;
@@ -228,21 +228,21 @@ ul,li{
 		top: 305px;
 	}
 	#gameover .mengshe.fen,#game-before .mengshe.fen{
-		background-image: url(img/粉蛇.png);
+		background-image: url(../img/粉蛇.png);
 	}
 	#gameover .mengshe.huang,#game-before .mengshe.huang{
-		background-image: url(img/黄蛇.png);
+		background-image: url(../img/黄蛇.png);
 	}
 	#gameover .mengshe.lan,#game-before .mengshe.lan{
-		background-image: url(img/蓝蛇.png);
+		background-image: url(../img/蓝蛇.png);
 	}
 	#gameover .mengshe.lv,#game-before .mengshe.lv{
-		background-image: url(img/lv蛇.png);
+		background-image: url(../img/lv蛇.png);
 	}
 	.juesexuanze{
 		width: 500px;
 		height: 307px;
-		background-image: url(img/juesexuanze.png);
+		background-image: url(../img/juesexuanze.png);
 		background-size: 100%;
 		margin: 0 auto;
 		margin-top: 30px;
@@ -271,7 +271,7 @@ ul,li{
 	.xian{
 		width: 300px;
 		height: 114px;
-		background-image: url(img/线.png);
+		background-image: url(../img/线.png);
 		background-size: 100%;
 		position: absolute;
 		top: 150px;
