@@ -152,8 +152,8 @@ $(function(){
        newhead={x:oldhead.x+1,y:oldhead.y}
      }
 
-      //撞墙
-     if(newhead.x<0||newhead.x>row-1||newhead.y<0||newhead.y>row-1){
+      //撞墙 撞自己
+     if(newhead.x<0||newhead.x>row-1||newhead.y<0||newhead.y>row-1 ||dictSnake[xy2id(newhead.x,newhead.y)]){
        pauseGame();
        $('#gameover').css('display','block');
        if(grade>=10){
@@ -186,7 +186,6 @@ $(function(){
         dictSnake[xy2id(weiba.x,weiba.y)]=false;
      }
      dictSnake[xy2id(newhead.x,newhead.y)]=true;
-
      $('#'+xy2id(newhead.x,newhead.y)).addClass('she')
      snake.push(newhead)
    }
